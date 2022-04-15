@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ProyectoHappySuggar</string>
+    <string name="txt_btnEntrar">Ingresar</string>
 </resources>

@@ -11,15 +11,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="180dp"
-        android:text="HappySuggar"
-        android:paddingVertical="35dp"
-        android:textAlignment="center"
-        android:textSize="60sp"
-        android:fontFamily="cursive"
-        android:textColor="#000"
-        android:background="@drawable/bg"
         android:layout_marginBottom="25dp"
-        />
+        android:background="@drawable/bg"
+        android:fontFamily="cursive"
+        android:paddingVertical="35dp"
+        android:text="HappySuggar"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="60sp" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_marginHorizontal="30dp"
@@ -51,18 +51,18 @@
         />
 
     <Button
+        android:id="@+id/btnIngresar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ingresar"
         android:layout_marginHorizontal="30dp"
         android:layout_marginVertical="20dp"
         android:background="@drawable/button_bg"
-        android:textColor="#FFFF"
-        />
+        android:text="@string/txt_btnEntrar"
+        android:textColor="#FFFF" />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="No tiene cuenta? Crea una"
+        android:text="No tiene cuenta? Cree una"
         android:layout_marginHorizontal="30dp"
         android:textAlignment="center"
         />

@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">ProyectoHappySuggar</string>
     <string name="txt_btnEntrar">Ingresar</string>
+
+    //menu
+    <string name="item1">Perfil</string>
+    <string name="item2">Noticias</string>
+    <string name="item3">Salir</string>
 </resources>

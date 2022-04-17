@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoHappySuggar">
         <activity
+            android:name=".registrarse"
+            android:exported="false" />
+        <activity
+            android:name=".iniciosesion"
+            android:exported="false" />
+        <activity
             android:name=".bienvenida"
             android:exported="false" />
         <activity

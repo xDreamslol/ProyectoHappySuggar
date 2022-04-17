@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ProyectoHappySuggar</string>
-    <string name="txt_btnEntrar">Ingresar</string>
+    <string name="btnIngresar">Ingresar</string>
+
+    <string name="et_nombre">Nombre</string>
+
+    <string name="txt_registro">Registrate</string>
+
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnCancelar">Cancelar</string>
+
 </resources>

@@ -2,68 +2,92 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    >
+    android:background="@drawable/login__1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:layout_marginBottom="25dp"
-        android:background="@drawable/bg"
-        android:fontFamily="cursive"
-        android:paddingVertical="35dp"
-        android:text="HappySuggar"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="60sp" />
+        android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_marginHorizontal="30dp"
-        android:layout_height="wrap_content"
-        android:text="Correo"
-        android:textColor="#000"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:layout_marginHorizontal="30dp"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_marginHorizontal="30dp"
-        android:layout_height="wrap_content"
-        android:text="Contrasena"
-        android:textColor="#000"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:paddingHorizontal="12dp"
-        android:paddingVertical="20dp"
-        android:layout_marginHorizontal="30dp"
-        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnIngresar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:layout_marginVertical="20dp"
-        android:background="@drawable/button_bg"
-        android:text="@string/txt_btnEntrar"
-        android:textColor="#FFFF" />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="No tiene cuenta? Cree una"
-        android:layout_marginHorizontal="30dp"
-        android:textAlignment="center"
-        />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/bg"
+                android:fontFamily="cursive"
+                android:paddingVertical="35dp"
+                android:text="HappySuggar"
+                android:textAlignment="center"
+                android:textColor="#000"
+                android:textSize="60sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="128dp"
+                app:srcCompat="@drawable/diabetes" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="30dp"
+                android:text="Correo"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/txt_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:hint="@string/et_nombre"
+                android:text=""
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="30dp"
+                android:text="Contrasena"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="20dp" />
+
+            <Button
+                android:id="@+id/btnIngresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/button_bg"
+                android:onClick="@string/btnIngresar"
+                android:text="@string/btnIngresar"
+                android:textColor="#FFFF" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_marginHorizontal="30dp"
+                android:text="No tiene cuenta? Cree una"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

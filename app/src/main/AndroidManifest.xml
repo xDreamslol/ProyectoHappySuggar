@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoHappySuggar">
         <activity
+            android:name=".bienvenida"
+            android:exported="false" />
+        <activity
             android:name=".Encuesta2"
             android:exported="false" />
         <activity

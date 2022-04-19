@@ -27,9 +27,8 @@ public class registrarse extends AppCompatActivity {
         //musica
         mp = MediaPlayer.create(this, R.raw.goats);
         mp.start();
-        mp.setLooping(true);
 
-        mp_great = MediaPlayer.create(this, R.raw.wonderful);
+
 
         //metodo para cuando le das clic al boton registrar
      btn1.setOnClickListener(new View.OnClickListener() {

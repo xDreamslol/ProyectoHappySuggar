@@ -13,6 +13,9 @@
             android:name=".registrarse"
             android:exported="false" />
         <activity
+            android:name=".inicio"
+            android:exported="false" />
+        <activity
             android:name=".iniciosesion"
             android:exported="false" />
         <activity

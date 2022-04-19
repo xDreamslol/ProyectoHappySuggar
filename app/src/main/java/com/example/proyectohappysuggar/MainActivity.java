@@ -26,8 +26,7 @@ public class MainActivity extends AppCompatActivity {
         mp.start();
         mp.setLooping(true);
 
-        mp_great = MediaPlayer.create(this, R.raw.wonderful);
-        mp_bad = MediaPlayer.create(this, R.raw.bad);
+
     }
 
 

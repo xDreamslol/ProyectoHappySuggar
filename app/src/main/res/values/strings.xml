@@ -19,6 +19,8 @@
     <string name="btnRegistrar">Registrar</string>
     <string name="btnregresar">Regresar</string>
     <string name="txt_registro">Registrate</string>
-    
+
+    //PANTALLA DE INICIO
+    <string name="image_gota">Inicio</string>
 
 </resources>

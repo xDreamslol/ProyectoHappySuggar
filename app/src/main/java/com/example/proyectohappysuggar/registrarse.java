@@ -30,7 +30,7 @@ public class registrarse extends AppCompatActivity {
 
 
 
-        //metodo para cuando le das clic al boton registrar
+        //metodo para registrar
      btn1.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View view) {
@@ -40,7 +40,7 @@ public class registrarse extends AppCompatActivity {
          }
      }
      );
-        //metodo del boton registrarse
+        //metodo para cancelar
         btn2.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {

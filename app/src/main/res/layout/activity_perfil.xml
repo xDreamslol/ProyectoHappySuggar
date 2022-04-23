@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/inicio">
+    android:background="@drawable/perfil"
+    tools:context=".Perfil">
 
     <Button
-        android:id="@+id/btninicio"
-        android:layout_width="196dp"
-        android:layout_height="66dp"
+        android:id="@+id/btnperfil"
+        android:layout_width="199dp"
+        android:layout_height="48dp"
         android:background="@drawable/button_bg"
-        android:text="Iniciemos"
+        android:text="Siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.418"
+        app:layout_constraintHorizontal_bias="0.443"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.623"
-        tools:ignore="SpeakableTextPresentCheck" />
+        app:layout_constraintVertical_bias="0.981" />
 </androidx.constraintlayout.widget.ConstraintLayout>

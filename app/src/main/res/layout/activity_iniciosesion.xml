@@ -45,6 +45,7 @@
         android:layout_marginHorizontal="30dp"
         android:hint="@string/et_nombre"
         android:text=""
+        android:textColor="#E91E63"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
@@ -62,7 +63,8 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:paddingHorizontal="12dp"
-        android:paddingVertical="20dp" />
+        android:paddingVertical="20dp"
+        android:textColor="#E91E63" />
 
     <Button
         android:id="@+id/btnIngresar"

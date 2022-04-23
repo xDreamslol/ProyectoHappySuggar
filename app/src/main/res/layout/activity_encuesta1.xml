@@ -4,28 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="@drawable/login__1"
     tools:context=".EncuestaActivity1">
 
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="302dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:background="@color/purple_700"
-        android:text="Siguiente"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.877"
-        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
-
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnmujer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +64,7 @@
         app:layout_constraintVertical_bias="0.378" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/btnhombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

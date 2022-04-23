@@ -1,5 +1,5 @@
 <resources>
-    
+
     //Pagina #1 (2 botones iniciar sesion y registrar)
     <string name="app_name">ProyectoHappySuggar</string>
     <string name="btnIniciarsesion">IniciaSesion</string>
@@ -21,6 +21,15 @@
     <string name="txt_registro">Registrate</string>
 
     //PANTALLA DE INICIO
-    <string name="image_gota">Inicio</string>
+    <string name="btninicio">Inicio</string>
+
+    //encuesta 1
+    <string name="btnmujer">iconomujer</string>
+    <string name="btnhombre">iconohombre</string>
+
+    //encuesta 2
+    <string name="btnsiguiente">Siguiente</string>
+
+    <string name="btnlogros">Logros</string>
 
 </resources>

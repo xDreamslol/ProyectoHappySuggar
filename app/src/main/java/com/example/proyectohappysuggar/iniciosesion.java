@@ -33,10 +33,8 @@ Button btningresar;
         mp.start();
         mp.setLooping(true);
 
-        mp_great = MediaPlayer.create(this, R.raw.wonderful);
 
-
-        //aqui va la BD//
+        //aqui BD
 
         btningresar.setOnClickListener(new View.OnClickListener() {
             @Override

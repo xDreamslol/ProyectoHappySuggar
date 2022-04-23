@@ -55,6 +55,7 @@
         android:layout_height="49dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:textColor="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.801"
@@ -75,10 +76,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintHorizontal_bias="0.112"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.468" />
+        app:layout_constraintVertical_bias="0.466" />
 
     <EditText
         android:id="@+id/editTextTextEmailAddress"
@@ -86,6 +87,7 @@
         android:layout_height="55dp"
         android:ems="10"
         android:inputType="textEmailAddress"
+        android:textColor="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.784"
@@ -97,7 +99,7 @@
     <TextView
         android:id="@+id/textView_contraseña"
         android:layout_width="121dp"
-        android:layout_height="39dp"
+        android:layout_height="41dp"
         android:fontFamily="serif"
         android:paddingStart="15dp"
         android:paddingTop="10dp"
@@ -106,10 +108,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.127"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.546" />
+        app:layout_constraintVertical_bias="0.537" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -117,6 +119,7 @@
         android:layout_height="54dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.787"
@@ -136,10 +139,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.641" />
+        app:layout_constraintVertical_bias="0.622" />
 
     <EditText
         android:id="@+id/editTextTextPassword2"
@@ -147,6 +150,7 @@
         android:layout_height="52dp"
         android:ems="10"
         android:inputType="textPassword"
+        android:textColor="#E91E63"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.803"
@@ -190,7 +194,7 @@
         android:fontFamily="serif"
         android:paddingStart="25dp"
         android:paddingTop="10dp"
-        android:text="Nombre:"
+        android:text="Nombre"
         android:textColor="#E91E63"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"

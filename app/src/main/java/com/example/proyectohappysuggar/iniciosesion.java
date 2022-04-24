@@ -13,12 +13,18 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.database.sqlite.SQLiteOpenHelper;
+
 
 public class iniciosesion extends AppCompatActivity {
 EditText et_nombre;
 Intent intent;
-Button btningresar;
-    private MediaPlayer mp, mp_great;
+
+private MediaPlayer mp, mp_great;
+    private String Nombre, Usuario,Password;
+    Button btningresar;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,21 +45,15 @@ Button btningresar;
         btningresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //prueba
-                String nombre = et_nombre.getText().toString();
-                if (!nombre.equals("")) {
+
                     mp_great.start();
                     Intent siguiente1 = new Intent (iniciosesion.this, EncuestaActivity1.class);
-                    intent.putExtra("Participante", nombre);
                     startActivity(siguiente1);
-                    finish();
 
-                } else {
-                    Toast.makeText(getApplicationContext(), "primero debe escribir su nombre", Toast.LENGTH_SHORT).show();
                     mp.stop();
                     mp.release();
                 }
-        }
+        //}
         }
         );
         }
